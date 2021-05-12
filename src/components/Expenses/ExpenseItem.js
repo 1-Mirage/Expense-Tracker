@@ -1,6 +1,6 @@
 import ExpenseDate from './ExpenseDate'
 import './ExpenseItem.css';
-import Card from './Card';
+import Card from '../UI/Card';
 function ExpenseItem(props) /* props is object which gets data from App.js from custom element.The data is key value pair.*/
 {
     
