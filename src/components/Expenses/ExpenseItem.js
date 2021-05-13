@@ -6,7 +6,7 @@ function ExpenseItem(props) /* props is object which gets data from App.js from 
 {
     const [title,setTitle]=useState(props.title); /*Updating the component, setTitle is an function, title is the value which stores the updated value*/
     const clickHandler=() =>{
-        setTitle("updated!");
+        setTitle("updated!");  /* Assigning value*/
         console.log("Clicked");
     }
     
