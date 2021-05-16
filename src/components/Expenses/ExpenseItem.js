@@ -6,6 +6,7 @@ function ExpenseItem(props) /* props is object which gets data from App.js from 
 {
     
     return (
+        <li>
        <Card className="expense-item">
            <ExpenseDate date={props.date}/>                                { /*We just can't put anything between custom compenent*/ }
            <div className="expense-item__description">
@@ -18,6 +19,7 @@ function ExpenseItem(props) /* props is object which gets data from App.js from 
            </div>
            
        </Card>
+       </li>
     );
 }
 export default ExpenseItem;
